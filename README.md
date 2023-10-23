@@ -20,7 +20,8 @@ The Maze Game Project is an interactive game that challenges players to navigate
 
 ## Installation
 1. Clone the repository from [].
-
+## Compilation
+- $ gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm -o maze `sdl2-config --cflags` `sdl2-config --libs`;
 ## Usage
 1. [Execute ./maze or type make run]
 2. [Use up and down arrow keys to move forward and backward (keys w and s serve the same function]
